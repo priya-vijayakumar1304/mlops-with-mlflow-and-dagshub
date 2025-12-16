@@ -13,7 +13,7 @@ This project showcases how machine learning experiments can be tracked, compared
 - **MLflow Model Registry** with versioning
 - Model stage transitions (None → Staging → Production)
 - Reproducible ML workflow
-- Centralized MLflow tracking using **DagsHub**
+- Centralized MLflow tracking using **DagsHub** - https://dagshub.com/priya.vijayakumar1304/mlops-with-mlflow-and-dagshub.mlflow/
 
 ---
 
@@ -45,6 +45,7 @@ This project logs:
 - Evaluation metrics (accuracy, recall, F1)
 - Model artifacts
 - Multiple experiment runs for comparison
+
 Experiments are tracked centrally using DagsHub-hosted MLflow, enabling easy access without running MLflow locally.
 
 ![MLflow Experiments](assets/mlflow-experiments.png)
@@ -80,7 +81,7 @@ pip install -r requirements.txt
 Run the notebooks in the following order:
 1) **tracking_multiple_experiment.ipynb**
 2) **mlflow_model_registry.ipynb**
-3)**mlflow_with_dagshub.ipynb**
+3) **mlflow_with_dagshub.ipynb**
 
 ### Why This Project Matters
 
@@ -89,4 +90,5 @@ This project demonstrates practical MLOps skills beyond model training, includin
 - Centralized experiment tracking
 - Model versioning and governance
 - Model lifecycle management using MLflow
+  
 It reflects real-world workflows used by ML Engineers and MLOps teams.
