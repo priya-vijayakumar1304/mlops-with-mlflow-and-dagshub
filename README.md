@@ -11,7 +11,7 @@ This project showcases how machine learning experiments can be tracked, compared
 - Multiple experiment runs with metric comparison
 - Model logging and artifact management
 - **MLflow Model Registry** with versioning
-- Model stage transitions (None → Staging → Production)
+- MLflow Model Registry with model versioning
 - Reproducible ML workflow
 - Centralized MLflow tracking using **DagsHub** - https://dagshub.com/priya.vijayakumar1304/mlops-with-mlflow-and-dagshub.mlflow/
 
@@ -59,7 +59,7 @@ Each run logs parameters, metrics, and model artifacts.
 
 ### Model Registry
 
-Models are versioned and promoted using the MLflow Model Registry.
+Models are registered and versioned using the MLflow Model Registry.
 
 ![MLflow Model Registry](assets/mlflow-model-registry.png)
 
